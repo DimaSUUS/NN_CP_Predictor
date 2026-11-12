@@ -1,0 +1,86 @@
+date,series_id,type,direction,magnitude,source,description
+2020-03-03,SPY,change_point,down,-8,https://www.federalreserve.gov/newsevents/pressreleases/monetary20200303a.htm,ФРС экстренно снизила ставку на 50 б.п. старт COVID-shock
+2020-03-09,SPY,outlier,down,-10,https://www.nasdaq.com/,Паническая распродажа после расширения COVID-рисков
+2020-03-12,SPY,outlier,down,-12,https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm,Маржин-коллы и ликвидации на фоне COVID-обвала
+2020-03-16,SPY,change_point,down,-10,https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm,ФРС обнулила ставку и объявила QE
+2020-03-23,SPY,change_point,up,11,https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323a.htm,ФРС сделала QE безлимитным начался мощный отскок
+2020-06-10,SPY,outlier,down,-4,https://www.federalreserve.gov/newsevents/pressreleases/monetary20200610a.htm,Реакция на заседание ФРС и пессимистичный прогноз
+2020-09-09,SPY,outlier,down,-7,https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20200916.htm,Коррекция tech после перегрева роста
+2021-01-27,SPY,outlier,up,3,https://www.federalreserve.gov/newsevents/pressreleases/monetary20210127a.htm,Подтверждение мягкой политики ФРС
+2021-11-26,SPY,outlier,down,-8,https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20211215.htm,Omicron и рост ожиданий ужесточения
+2022-01-03,SPY,change_point,down,-9,https://www.federalreserve.gov/monetarypolicy/openmarket.htm,Старт цикла ужесточения ФРС
+2022-03-16,SPY,outlier,down,-5,https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm,Первый подъём ставки в цикле
+2022-06-13,SPY,outlier,down,-11,https://www.bls.gov/cpi/,Шок CPI и распродажа equities
+2022-09-21,SPY,outlier,down,-7,https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm,Повышение ставки на 75 б.п. и жёсткий тон ФРС
+2023-03-13,SPY,outlier,down,-10,https://www.federalreserve.gov/newsevents/pressreleases/monetary20230322a.htm,Банковский стресс после SVB
+2023-06-14,SPY,change_point,up,6,https://www.federalreserve.gov/newsevents/pressreleases/monetary20230614a.htm,Пауза ФРС после серии повышений
+2024-01-10,SPY,change_point,up,5,https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011024,Риск-он после одобрения spot BTC ETF
+2024-08-05,SPY,outlier,down,-6,https://www.federalreserve.gov/,Yen carry trade unwind резкая распродажа
+2025-01-27,SPY,outlier,down,-4,https://www.nasdaq.com/,DeepSeek shock для tech-сектора
+2025-04-03,SPY,outlier,down,-7,https://www.federalreserve.gov/,Турбулентность из-за роста ставок и earnings re-pricing
+2020-03-16,AAPL,change_point,down,-12,https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm,COVID-shock и распродажа megacap tech
+2020-04-30,AAPL,outlier,up,6,https://investor.apple.com/dividend-history/default.aspx,Сильный квартальный отчёт
+2020-08-28,AAPL,outlier,up,8,https://investor.apple.com/dividend-history/default.aspx,4-for-1 split
+2020-09-02,AAPL,outlier,down,-6,https://investor.apple.com/investor-relations/default.aspx,Фиксация прибыли после split-rally
+2021-01-27,AAPL,outlier,up,6,https://investor.apple.com/dividend-history/default.aspx,Сильный отчёт и рекордные продажи iPhone
+2021-04-28,AAPL,outlier,up,5,https://investor.apple.com/dividend-history/default.aspx,Усиление buyback-истории и рост выручки
+2021-07-27,AAPL,outlier,up,5,https://investor.apple.com/dividend-history/default.aspx,Сильная квартальная отчётность
+2021-10-28,AAPL,outlier,up,6,https://investor.apple.com/dividend-history/default.aspx,Рост выручки и улучшение маржи
+2022-01-03,AAPL,change_point,down,-10,https://www.federalreserve.gov/monetarypolicy/openmarket.htm,Переоценка big tech на фоне роста ставок
+2022-04-28,AAPL,outlier,down,-6,https://investor.apple.com/dividend-history/default.aspx,Смешанный отчёт и давление supply chain
+2022-07-28,AAPL,outlier,up,5,https://investor.apple.com/dividend-history/default.aspx,Сильный сервисный бизнес и buybacks
+2022-10-27,AAPL,outlier,down,-6,https://investor.apple.com/dividend-history/default.aspx,Слабость спроса и эффект сильного доллара
+2023-02-02,AAPL,outlier,up,6,https://investor.apple.com/dividend-history/default.aspx,Лучше ожиданий восстановление
+2023-08-03,AAPL,outlier,down,-5,https://investor.apple.com/dividend-history/default.aspx,Фиксация прибыли после сильного run-up
+2024-02-01,AAPL,outlier,up,5,https://investor.apple.com/dividend-history/default.aspx,Улучшение ожиданий по сервисам
+2024-06-10,AAPL,change_point,up,7,https://investor.apple.com/investor-relations/default.aspx,Анонсы AI-функций переоценка роста
+2024-09-10,AAPL,outlier,up,6,https://investor.apple.com/investor-relations/default.aspx,Новая волна спроса на AI-cycle
+2025-01-30,AAPL,outlier,up,5,https://investor.apple.com/dividend-history/default.aspx,Сильный квартал и стабилизация цепочек
+2022-02-24,USD_RUB,change_point,up,35,https://www.cbr.ru/eng/press/pr/?file=28022022_094500key_eng.htm,Начало СВО и санкционный шок
+2022-02-28,USD_RUB,outlier,up,18,https://www.cbr.ru/eng/press/pr/?file=28022022_094500key_eng.htm,Рубль под давлением ставка 20%
+2022-03-07,USD_RUB,outlier,up,15,https://www.cbr.ru/eng/press/pr/?file=28022022_094500key_eng.htm,Пик паники и волатильности
+2022-03-10,USD_RUB,change_point,down,-12,https://www.cbr.ru/eng/press/pr/?file=28022022_094500key_eng.htm,Разворот после мер ЦБ начало укрепления
+2022-03-18,USD_RUB,outlier,down,-10,https://www.cbr.ru/eng/press/pr/?file=28022022_094500key_eng.htm,Откат после стабилизации рынка
+2022-04-11,USD_RUB,change_point,down,-8,https://www.cbr.ru/eng/press/pr/?file=11042022_083000key_eng.htm,Укрепление рубля после валютных ограничений
+2022-04-29,USD_RUB,outlier,down,-7,https://www.cbr.ru/eng/press/pr/?file=29042022_133000key_eng.htm,Дальнейшее укрепление рубля
+2022-06-10,USD_RUB,outlier,down,-6,https://www.cbr.ru/eng/press/pr/?file=10062022_133000key_eng.htm,Сильный рубль на фоне контроля капитала
+2023-06-24,USD_RUB,outlier,up,5,https://www.reuters.com/,Мятеж Пригожина краткосрочный скачок
+2023-08-14,USD_RUB,change_point,up,8,https://www.dallasfed.org/research/economics/2023/1010,Ослабление рубля на фоне торгового баланса
+2023-10-27,USD_RUB,outlier,up,6,https://www.cbr.ru/eng/press/pr/?file=27102023_133000key_eng.htm,Рост волатильности ужесточение ДКП ЦБ
+2024-06-13,USD_RUB,outlier,up,6,https://www.cbr.ru/,Давление из-за импорта и санкций
+2024-08-06,USD_RUB,outlier,up,5,https://www.cbr.ru/,Геополитическая эскалация давление на рубль
+2024-11-21,USD_RUB,change_point,up,7,https://www.cbr.ru/,Санкции на Газпромбанк скачок курса
+2024-12-30,USD_RUB,outlier,up,5,https://www.cbr.ru/,Годовой конец спрос на валюту
+2022-02-24,EUR_RUB,change_point,up,32,https://www.cbr.ru/eng/press/pr/?file=28022022_094500key_eng.htm,Санкционный шок рост EUR/RUB
+2022-02-28,EUR_RUB,outlier,up,16,https://www.cbr.ru/eng/press/pr/?file=28022022_094500key_eng.htm,Пик паники на FX
+2022-03-10,EUR_RUB,change_point,down,-10,https://www.cbr.ru/eng/press/pr/?file=11042022_083000key_eng.htm,Откат евро после стабилизации
+2022-04-11,EUR_RUB,outlier,down,-8,https://www.cbr.ru/eng/press/pr/?file=11042022_083000key_eng.htm,Укрепление рубля
+2022-07-22,EUR_RUB,outlier,down,-6,https://www.cbr.ru/eng/press/pr/?file=22072022_133000key_eng.htm,Дополнительная нормализация курса
+2023-08-14,EUR_RUB,change_point,up,7,https://www.dallasfed.org/research/economics/2023/1010,Ослабление рубля к корзине валют
+2024-06-13,EUR_RUB,outlier,up,5,https://www.cbr.ru/,Давление на рубль в условиях санкций и импорта
+2022-02-24,CNY_RUB,change_point,up,20,https://www.cbr.ru/eng/press/pr/?file=28022022_094500key_eng.htm,Санкционный шок рост CNY/RUB
+2022-03-10,CNY_RUB,change_point,down,-9,https://www.cbr.ru/eng/press/pr/?file=11042022_083000key_eng.htm,Нормализация после мер ЦБ
+2022-04-29,CNY_RUB,outlier,down,-7,https://www.cbr.ru/eng/press/pr/?file=29042022_133000key_eng.htm,Укрепление рубля
+2022-07-22,CNY_RUB,outlier,down,-5,https://www.cbr.ru/eng/press/pr/?file=22072022_133000key_eng.htm,Сильный рубль и контроль потоков
+2023-08-14,CNY_RUB,change_point,up,5,https://www.dallasfed.org/research/economics/2023/1010,Ослабление рубля и рост спроса на юань
+2020-03-16,BTC-USD,change_point,down,-18,https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm,COVID-liquidation на крипторынке
+2020-05-11,BTC-USD,change_point,up,15,https://www.coindesk.com/,Халвинг-нарратив и восстановление спроса
+2021-02-08,BTC-USD,change_point,up,20,https://www.coindesk.com/,Покупка Tesla и институциональный FOMO
+2021-04-14,BTC-USD,change_point,up,25,https://www.coindesk.com/,Локальный пик цикла
+2021-05-19,BTC-USD,change_point,down,-30,https://www.coindesk.com/,Китайский регуляторный шок и распродажа
+2021-11-10,BTC-USD,change_point,up,18,https://www.coindesk.com/,Исторический максимум цикла
+2022-05-09,BTC-USD,change_point,down,-35,https://www.coindesk.com/,Крах LUNA/UST
+2022-06-13,BTC-USD,outlier,down,-12,https://www.coindesk.com/,Давление после CPI и риск-off
+2022-11-08,BTC-USD,change_point,down,-28,https://www.coindesk.com/,Крах FTX
+2023-03-10,BTC-USD,outlier,down,-10,https://www.coindesk.com/,Банковский стресс в США
+2023-06-23,BTC-USD,outlier,down,-8,https://www.coindesk.com/,Регуляторные риски вокруг ETF и бирж
+2024-01-10,BTC-USD,change_point,up,22,https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011024,Одобрение spot Bitcoin ETF
+2024-03-14,BTC-USD,change_point,up,18,https://www.coindesk.com/,Новый исторический максимум
+2024-04-20,BTC-USD,outlier,down,-8,https://www.coindesk.com/,Халвинг и фиксация прибыли
+2024-11-05,BTC-USD,change_point,up,12,https://www.coindesk.com/,Пост-ETF притоки и risk-on
+2024-12-05,BTC-USD,change_point,up,10,https://www.coindesk.com/,Пробитие психологического уровня 100K
+2025-02-20,BTC-USD,outlier,up,9,https://www.coindesk.com/,Усиление институционального спроса
+2020-10-27,synth_mu_shift,change_point,up,,known_generator,Истинная точка разладки индекс 300
+2021-12-01,synth_mu_shift,change_point,up,,known_generator,Истинная точка разладки индекс 700
+2021-05-15,synth_sigma_shift,change_point,both,,known_generator,Сдвиг дисперсии индекс 500
+2021-02-04,synth_random_walk,change_point,down,,known_generator,Излом тренда индекс 400
