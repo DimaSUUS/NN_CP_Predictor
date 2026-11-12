@@ -1,0 +1,56 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Project data (генерируется) ----------
+data/raw/
+data/processed/
+data/reports/
+data/events/calendar_events.csv
+
+# Явно оставляем ручную разметку
+!data/events/events.csv
+
+# ---------- Model checkpoints (большие бинарники) ----------
+*.pt
+*.pth
+
+# ---------- Logs ----------
+*.log
+
+# ---------- Baselines: только эталон в git ----------
+baselines/*
+!baselines/baseline_fallback_v1.json
+
+# ---------- Test artifacts ----------
+.pytest_cache/
+.coverage
+htmlcov/
