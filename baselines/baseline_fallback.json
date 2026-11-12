@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "source_sha256": {
+    "config.py": "c2e39308cbeec0d713f4c639cb12f2d94d7312ed7646c77f4467fafae0d03192",
+    "core.py": "549f8a69ba5c72d8fe73983b5d98b948c092ee25335f285bb915395a48ee117e",
+    "evaluation.py": "f4e1b3097f48657d3fdc817a40da7f9ad52b0dd07360d6cb13d3d2fa3cfac52b",
+    "data_sources.py": "e3969e416fbdb6110fd7712c4898237f42f7b294e5051608c105b4de718485f9",
+    "baseline.py": "d774796666d249d01cef6cc25061c9b1374bbb282317a04c11b4a2f8b7018088"
+  },
+  "created_at_utc": "2026-10-28T13:19:32.853304+00:00",
+  "backend_requested": "fallback",
+  "backend_available": {
+    "ruptures_rs": null,
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "statsmodels": "0.14.6"
+  },
+  "python_version": "3.13.5",
+  "random_seeds": {
+    "mean_shift": 42,
+    "variance_shift": 43,
+    "random_walk": 44
+  },
+  "parameters": {
+    "CP_PENALTY_MEAN": 10.0,
+    "CP_PENALTY_TREND": 50.0,
+    "CP_PENALTY_VAR": 30.0,
+    "CP_MIN_SIZE": 20,
+    "CP_DEDUP_TOL": 10,
+    "CP_EVAL_TOLERANCE": 5,
+    "OUTLIER_WINDOW": 60,
+    "OUTLIER_Z": 6.0
+  },
+  "cases": [
+    {
+      "series": "synth_mu_shift",
+      "n_points": 1000,
+      "ground_truth": [
+        300,
+        700
+      ],
+      "predicted": [
+        300,
+        700
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_offset": 0.0,
+        "n_true": 2,
+        "n_pred": 2,
+        "tp": 2
+      },
+      "false_positive_count": 0
+    },
+    {
+      "series": "synth_sigma_shift",
+      "n_points": 1000,
+      "ground_truth": [
+        500
+      ],
+      "predicted": [
+        502
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_offset": 2.0,
+        "n_true": 1,
+        "n_pred": 1,
+        "tp": 1
+      },
+      "false_positive_count": 0
+    },
+    {
+      "series": "synth_random_walk",
+      "n_points": 1000,
+      "ground_truth": [
+        400
+      ],
+      "predicted": [
+        403
+      ],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_offset": 3.0,
+        "n_true": 1,
+        "n_pred": 1,
+        "tp": 1
+      },
+      "false_positive_count": 0
+    },
+    {
+      "series": "synth_random_walk_no_change",
+      "n_points": 1000,
+      "ground_truth": [],
+      "predicted": [],
+      "metrics": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_offset": null,
+        "n_true": 0,
+        "n_pred": 0,
+        "tp": 0
+      },
+      "false_positive_count": 0
+    }
+  ]
+}
